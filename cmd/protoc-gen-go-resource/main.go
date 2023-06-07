@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/ucarion/protoc-gen-go-resource/internal/generator"
+	"github.com/protoc-extensions/protoc-gen-go-resource/internal/generator"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

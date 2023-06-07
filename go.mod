@@ -1,9 +1,11 @@
-module github.com/ucarion/protoc-gen-go-resource
+module github.com/protoc-extensions/protoc-gen-go-resource
 
-go 1.16
+go 1.20
 
 require (
-	github.com/iancoleman/strcase v0.2.0 // indirect
-	google.golang.org/genproto v0.0.0-20210719143636-1d5a45f8e492
-	google.golang.org/protobuf v1.27.1
+	github.com/iancoleman/strcase v0.2.0
+	google.golang.org/genproto/googleapis/api v0.0.0-20230530153820-e85fd2cbaebc
+	google.golang.org/protobuf v1.30.0
 )
+
+require google.golang.org/genproto v0.0.0-20230530153820-e85fd2cbaebc // indirect
